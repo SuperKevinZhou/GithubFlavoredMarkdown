@@ -7,6 +7,7 @@ Some examples for using GFM to build a better markdown.
     - [Alerts](#alerts)
     - [Fold](#fold)
     - [Sentence with Footnote](#sentence-with-footnote)
+    - [Definition](#definition)
 
 ## Alerts
 
@@ -60,3 +61,9 @@ The source code is:
 This is a sentence with footnote[^1]!
 
 [^1]: This is the footnote!
+
+## Definition
+
+Apple
+: a kind of fruit.
+: the name of an IT company.
