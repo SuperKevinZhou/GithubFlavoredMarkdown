@@ -59,13 +59,16 @@ The source code is:
     Looks like you click me!
 </details>
 
-The source code is:
+<details>
+<summary>Source code</summary>
+
 ```markdown
 <details>
     <summary>Click to reveal!</summary>
     Looks like you click me!
 </details>
 ```
+</details>
 
 ## Sentence with Footnote
 This is a sentence with footnote[^1]!
