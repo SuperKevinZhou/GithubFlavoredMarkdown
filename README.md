@@ -46,3 +46,8 @@ The source code is:
 ```
 
 ## Fold
+
+<details>
+    <summary>Click to reveal!</summary>
+    Looks like you click me!
+</details>
