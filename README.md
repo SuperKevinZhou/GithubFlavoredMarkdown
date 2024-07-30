@@ -8,6 +8,8 @@ Some examples for using GFM to build a better markdown.
     - [Fold](#fold)
     - [Sentence with Footnote](#sentence-with-footnote)
     - [Definition](#definition)
+    - [Keyboard](#keyboard)
+    - [Mermaid](#mermaid)
 
 ## Alerts
 
@@ -74,3 +76,12 @@ This is a sentence with footnote[^1]!
 
 ## Keyboard
 Use <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy.
+
+## Mermaid
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
