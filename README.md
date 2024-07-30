@@ -71,3 +71,6 @@ This is a sentence with footnote[^1]!
   <dd>This is one definition of the second term. </dd>
   <dd>This is another definition of the second term.</dd>
 </dl>
+
+## Keyboard
+Use <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy.
