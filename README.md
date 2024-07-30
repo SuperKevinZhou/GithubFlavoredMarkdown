@@ -2,7 +2,11 @@
 Some examples for using GFM to build a better markdown.
 
 ## Contents
-- [Alerts](#alerts)
+- [Github Flavored Markdown Ultimate Guide](#github-flavored-markdown-ultimate-guide)
+    - [Contents](#contents)
+    - [Alerts](#alerts)
+    - [Fold](#fold)
+    - [Sentence with Footnote](#sentence-with-footnote)
 
 ## Alerts
 
@@ -51,3 +55,8 @@ The source code is:
     <summary>Click to reveal!</summary>
     Looks like you click me!
 </details>
+
+## Sentence with Footnote
+This is a sentence with footnote[^1]!
+
+[^1]: This is the footnote!
