@@ -58,11 +58,28 @@ The source code is:
     <summary>Click to reveal!</summary>
     Looks like you click me!
 </details>
+The source code is:
+```markdown
+<details>
+    <summary>Click to reveal!</summary>
+    Looks like you click me!
+</details>
+```
 
 ## Sentence with Footnote
 This is a sentence with footnote[^1]!
 
 [^1]: This is the footnote!
+
+The source code is:
+```markdown
+This is a sentence with footnote[^1]!
+
+[^1]: This is the footnote!
+```
+
+> [!NOTE]
+> `[^1]` is just after the sentence, there is no need to put it in the end.
 
 ## Definition
 
@@ -73,9 +90,23 @@ This is a sentence with footnote[^1]!
   <dd>This is one definition of the second term. </dd>
   <dd>This is another definition of the second term.</dd>
 </dl>
+The source code is:
+```markdown
+<dl>
+  <dt>First Term</dt>
+  <dd>This is the definition of the first term.</dd>
+  <dt>Second Term</dt>
+  <dd>This is one definition of the second term. </dd>
+  <dd>This is another definition of the second term.</dd>
+</dl>
+```
 
 ## Keyboard
 Use <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy.
+The source code is:
+```markdown
+Use <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy.
+```
 
 ## Mermaid
 ```mermaid
@@ -85,3 +116,14 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+The source code is:
+````markdown
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+````
