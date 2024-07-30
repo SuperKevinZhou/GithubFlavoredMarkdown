@@ -10,6 +10,7 @@ Some examples for using GFM to build a better markdown.
     - [Definition](#definition)
     - [Keyboard](#keyboard)
     - [Mermaid](#mermaid)
+    - [Task list](#task-list)
 
 ## Alerts
 
@@ -142,4 +143,17 @@ graph TD;
     C-->D;
 ```
 ````
+</details>
+
+## Task list
+- [ ] Not completed yet.
+- [x] Completed.
+
+<details>
+<summary>Source code</summary>
+
+```markdown
+- [ ] Not completed yet.
+- [x] Completed.
+```
 </details>
