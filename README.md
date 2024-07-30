@@ -58,6 +58,7 @@ The source code is:
     <summary>Click to reveal!</summary>
     Looks like you click me!
 </details>
+
 The source code is:
 ```markdown
 <details>
@@ -90,6 +91,7 @@ This is a sentence with footnote[^1]!
   <dd>This is one definition of the second term. </dd>
   <dd>This is another definition of the second term.</dd>
 </dl>
+
 The source code is:
 ```markdown
 <dl>
