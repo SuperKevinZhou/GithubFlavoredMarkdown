@@ -13,12 +13,6 @@ Some examples for using GFM to build a better markdown.
 
 ## Alerts
 
-Alerts are a Markdown extension based on the blockquote syntax that you can use to emphasize critical information. On GitHub, they are displayed with distinctive colors and icons to indicate the significance of the content.
-
-Use alerts only when they are crucial for user success and limit them to one or two per article to prevent overloading the reader. Additionally, you should avoid placing alerts consecutively. Alerts cannot be nested within other elements.
-
-To add an alert, use a special blockquote line specifying the alert type, followed by the alert information in a standard blockquote. Five types of alerts are available:
-
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
@@ -34,7 +28,9 @@ To add an alert, use a special blockquote line specifying the alert type, follow
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-The source code is:
+<details>
+<summary>Source code</summary>
+
 ```markdown
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -51,6 +47,7 @@ The source code is:
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 ```
+</details>
 
 ## Fold
 
@@ -75,12 +72,15 @@ This is a sentence with footnote[^1]!
 
 [^1]: This is the footnote!
 
-The source code is:
+<details>
+<summary>Source code</summary>
+
 ```markdown
 This is a sentence with footnote[^1]!
 
 [^1]: This is the footnote!
 ```
+</details>
 
 > [!NOTE]
 > `[^1]` is just after the sentence, there is no need to put it in the end.
@@ -95,7 +95,9 @@ This is a sentence with footnote[^1]!
   <dd>This is another definition of the second term.</dd>
 </dl>
 
-The source code is:
+<details>
+<summary>Source code</summary>
+
 ```markdown
 <dl>
   <dt>First Term</dt>
@@ -105,13 +107,19 @@ The source code is:
   <dd>This is another definition of the second term.</dd>
 </dl>
 ```
+</details>
 
 ## Keyboard
 Use <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy.
-The source code is:
+
+
+<details>
+<summary>Source code</summary>
+
 ```markdown
 Use <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy.
 ```
+</details>
 
 ## Mermaid
 ```mermaid
@@ -122,7 +130,9 @@ graph TD;
     C-->D;
 ```
 
-The source code is:
+<details>
+<summary>Source code</summary>
+
 ````markdown
 ```mermaid
 graph TD;
@@ -132,3 +142,4 @@ graph TD;
     C-->D;
 ```
 ````
+</details>
