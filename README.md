@@ -50,6 +50,14 @@ Some examples for using GFM to build a better markdown.
 ```
 </details>
 
+<details>
+<summary>Something fun</summary>
+
+> [!TIP]
+> This is only a test!!!
+
+</details>
+
 ## Fold
 
 <details>
